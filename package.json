@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node_modules/github-wiki-sidebar/bin/github-wiki-sidebar.js --silent --git-push"
+    "build": "github-wiki-sidebar --silent --git-push"
   },
   "repository": {
     "type": "git",
