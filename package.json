@@ -4,8 +4,7 @@
   "description": "Robb's Wiki",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Tests not required for documentation.\" && exit 1",
-    "build": ""
+    "start": "npx http-server -p 3000 -r ."
   },
   "repository": {
     "type": "git",
@@ -17,5 +16,11 @@
     "url": "https://github.com/robblovell/wiki/issues"
   },
   "homepage": "https://github.com/robblovell/wiki#readme",
-  "dependencies": {}
+  "dependencies": {
+    "docsify-cli": "^4.4.1",
+    "http-server": "^0.11.1"
+  },
+  "devDependencies": {
+    "concurrently": "^5.0.0"
+  }
 }
