@@ -4,7 +4,8 @@
   "description": "Robb's Wiki",
   "main": "index.js",
   "scripts": {
-    "start": "npx http-server -p 3000 -r ."
+    "start": "npx http-server -p 3000 -r .",
+    "develop": "concurrently --raw 'docsify serve .'  'sleep 1 && open http://localhost:3000'"
   },
   "repository": {
     "type": "git",
@@ -17,8 +18,15 @@
   },
   "homepage": "https://github.com/robblovell/wiki#readme",
   "dependencies": {
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "configstore": "^5.0.1",
     "docsify-cli": "^4.4.1",
-    "http-server": "^0.11.1"
+    "figlet": "^1.5.0",
+    "http-server": "^0.11.1",
+    "inquirer": "^7.3.3",
+    "minimist": "^1.2.5"
   },
   "devDependencies": {
     "concurrently": "^5.0.0"
