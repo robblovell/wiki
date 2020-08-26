@@ -19,7 +19,7 @@
   "homepage": "https://github.com/robblovell/wiki#readme",
   "dependencies": {
     "docsify-cli": "^4.4.1",
-    "http-server": "^0.11.1",
+    "http-server": "^0.11.1"
   },
   "devDependencies": {
     "concurrently": "^5.0.0"
