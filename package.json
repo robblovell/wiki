@@ -18,15 +18,8 @@
   },
   "homepage": "https://github.com/robblovell/wiki#readme",
   "dependencies": {
-    "chalk": "^4.1.0",
-    "clear": "^0.1.0",
-    "clui": "^0.3.6",
-    "configstore": "^5.0.1",
     "docsify-cli": "^4.4.1",
-    "figlet": "^1.5.0",
     "http-server": "^0.11.1",
-    "inquirer": "^7.3.3",
-    "minimist": "^1.2.5"
   },
   "devDependencies": {
     "concurrently": "^5.0.0"

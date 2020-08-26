@@ -5,6 +5,12 @@
 You need docsify to view this site locally: 
 ```
 yarn global add docsify-cli
+yarn install
+yarn run develop
+
+OR
+
+npm install -g docsify-cli
 docsify serve .
 ```
 
