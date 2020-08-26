@@ -9,12 +9,12 @@
   <meta name="description" content="Description">
   <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-<!--  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">-->
-  <link rel="stylesheet" href="theme.css">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.css">
+  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+<!--  <link rel="stylesheet" href="theme.css">-->
+<!--  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.css">-->
 
   <script src="//unpkg.com/docsify-edit-on-github@1.0.1/index.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<!--  <script src="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>-->
 
   <style>
     /* Override some of the theme elements */
@@ -53,12 +53,12 @@
 
 <script>
   // Mermaid
-  var mermaid_num = 0;
-  mermaid.initialize({
-    startOnLoad: false,
-    // https://github.com/mermaid-js/mermaid/issues/790
-    themeCSS: ".label foreignObject { font-size: 14px; }"
-  })
+  // var mermaid_num = 0;
+  // mermaid.initialize({
+  //   startOnLoad: false,
+  //   // https://github.com/mermaid-js/mermaid/issues/790
+  //   themeCSS: ".label foreignObject { font-size: 14px; }"
+  // })
 
   window.$docsify = {
     name: 'Robb Docs',
@@ -92,18 +92,18 @@
     'flexible-alerts': {
       style: 'flat'
     },
-    markdown: {
-      renderer: {
-        code: function (code, lang) {
-          if (lang === "mermaid") {
-            return (
-                    '<div class="mermaid">' + mermaid.render('mermaid-svg-' + mermaid_num++, code) + "</div>"
-            );
-          }
-          return this.origin.code.apply(this, arguments)
-        }
-      }
-    },
+    // markdown: {
+    //   renderer: {
+    //     code: function (code, lang) {
+    //       if (lang === "mermaid") {
+    //         return (
+    //                 '<div class="mermaid">' + mermaid.render('mermaid-svg-' + mermaid_num++, code) + "</div>"
+    //         );
+    //       }
+    //       return this.origin.code.apply(this, arguments)
+    //     }
+    //   }
+    // },
     tabs: {
       persist: true,      // default
       sync: true,      // default
