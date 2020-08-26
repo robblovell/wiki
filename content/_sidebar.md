@@ -1,5 +1,5 @@
 <!-- content/_sidebar.md -->
-- [Home.md](/Home.md)
+- [Home.md](/home.md)
   - [Conventions](/Conventions/Conventions.md)
     - [CodingConventions.md](/Conventions/CodingConventions.md)
     - [Alerting](/Conventions/Alerting/Alerting.md)
