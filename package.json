@@ -4,8 +4,8 @@
   "description": "Robb's Wiki",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "github-wiki-sidebar --git-push --silent"
+    "test": "echo \"Tests not required for documentation.\" && exit 1",
+    "build": ""
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,5 @@
     "url": "https://github.com/robblovell/wiki/issues"
   },
   "homepage": "https://github.com/robblovell/wiki#readme",
-  "dependencies": {
-    "github-wiki-sidebar": "^2.0.1"
-  }
+  "dependencies": {}
 }
